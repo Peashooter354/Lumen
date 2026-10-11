@@ -27,18 +27,7 @@ Konsolen-Launcher mit Lichtkegel, Sternen, Sounds und Controller-Steuerung.
 - Die Menümusik pausiert, solange Discord offen ist.
 - Abmelden: in Discord unten links auf das Zahnrad, dann „Abmelden“. Die Anmeldedaten liegen unter `%APPDATA%\lumen-launcher\Partitions\discord`.
 
-## Minecraft (Java Edition)
-Auf der Startseite gibt es die Kachel **Minecraft**. Dort kannst du dich mit deinem Microsoft-Konto anmelden, die Version wählen (Release oder Snapshot), Mods von **Modrinth** und **CurseForge** installieren und das Spiel starten. Java wird automatisch von Mojang geladen, du musst nichts installieren. Du brauchst ein Konto, das Minecraft: Java Edition besitzt.
-
-### Einmalig: Client-ID für die Microsoft-Anmeldung
-Microsoft verlangt für jede Anmelde-App eine eigene Kennung. Das ist kostenlos:
-1. Auf https://portal.azure.com anmelden → **Microsoft Entra ID** → **App-Registrierungen** → **Neue Registrierung**.
-2. Name z. B. „Lumen“. Bei „Unterstützte Kontotypen“ die Option **mit persönlichen Microsoft-Konten** wählen. Registrieren.
-3. Links **Authentifizierung** → ganz unten **Öffentliche Clientflows zulassen: Ja** → Speichern.
-4. Auf der Übersichtsseite die **Anwendungs-(Client-)ID** kopieren und in Lumen unter Minecraft → ••• → Einstellungen einfügen.
-5. **Wichtig:** Mojang muss neue Anmelde-Apps für Minecraft freischalten (Formular „Minecraft Java Edition App Review“, derzeit unter https://aka.ms/mce-reviewappid). Solange das nicht passiert ist, meldet Lumen „Mojang hat diese Client-ID noch nicht freigeschaltet (403)“. Das kann einige Tage dauern.
-
-Danach: **Mit Microsoft anmelden** → Lumen zeigt einen Code und öffnet den Browser → Code eingeben → fertig. Die Anmeldung bleibt gespeichert (verschlüsselt über Windows).
+ **Mit Microsoft anmelden** → Lumen zeigt einen Code und öffnet den Browser → Code eingeben → fertig. Die Anmeldung bleibt gespeichert (verschlüsselt über Windows).
 
 ### Mods
 - Mods brauchen den **Fabric-Loader** (bei der Versionswahl einschalten). Pro Version und Loader gibt es einen eigenen Spielordner, damit sich Mods nicht in die Quere kommen.
